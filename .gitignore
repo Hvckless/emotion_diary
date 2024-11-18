@@ -1,0 +1,17 @@
+#빌드 output
+target/
+.settings/
+
+#maven 세팅
+.classpath
+.project
+.log
+
+*.iml
+
+#IntelliJ
+.idea/
+
+#VSCode
+.vscode/
+!.vscode/launch.json
