@@ -15,4 +15,19 @@ public class HomeController {
 	public ModelAndView test(HttpServletResponse response) throws IOException{
 		return new ModelAndView("home");
 	}
+	
+	@RequestMapping(value="/Main")
+	public ModelAndView main(HttpServletResponse response) throws IOException{
+		return new ModelAndView("Main");
+	}
+	
+	@RequestMapping(value="/Editor")
+	public ModelAndView editor(HttpServletResponse response) throws IOException{
+		return new ModelAndView("Editor");
+	}
+	
+	@RequestMapping(value="/MonthCalender")
+	public ModelAndView monthCalender(HttpServletResponse response) throws IOException{
+		return new ModelAndView("MonthCalender");
+	}
 }
