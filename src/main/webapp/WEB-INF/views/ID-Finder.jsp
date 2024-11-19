@@ -14,15 +14,15 @@
 	</header>
 	
 	<!-- 아이디 찾기 폼 -->
-	<div id=ID_Finder_cantainer>
+	<div id=idFinderCantainer>
 		<form action="">
-			<div id="ID_Finder_Box">
-				<label>Email</label>
-				<input type="text" id="username" name="useremail" placeholder="이메일을 입력해주세요">
-				<label>Nickname</label>
-				<input type="text" id="userpw" name="usernickname" placeholder="사용하실 닉네임을 입력해주세요">
+			<div id="idFinderBox">
+				<label class="input_label">Email</label>
+				<input class="user_input" type="text" id="userEmail" name="userEmail" placeholder="이메일을 입력해주세요">
+				<label class="input_label">Nickname</label>
+				<input class="user_input" type="text" id="userName" name="userName" placeholder="사용하신 닉네임을 입력해주세요">
 			</div>
-			<button type="submit" id="ID_Finder_btn">아이디 찾기</button>
+			<button type="submit" id="idFinderBtn" class="login_bth">아이디 찾기</button>
 		</form>
 	</div>
 

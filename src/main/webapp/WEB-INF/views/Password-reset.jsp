@@ -14,15 +14,15 @@
 	</header>
 	
 	<!-- 회원가입 폼 -->
-	<div id=Password_cantainer>
+	<div id=passwordCantainer>
 		<form action="">
-			<div id="Password_Box">
-				<label>Password</label>
-				<input type="text" id="userpw" name="userpw" placeholder="비밀번호를 입력해주세요">
-				<label>Password Check</label>
-				<input type="text" id="userpw" name="userpw" placeholder="비밀번호를 똑같이 입력해주세요">
+			<div id="passwordBox">
+				<label class="input_label">Password</label>
+				<input type="text" class="user_pw" name="userpw" placeholder="비밀번호를 입력해주세요">
+				<label class="input_label">Password Check</label>
+				<input type="text" class="user_pw" name="userpw" placeholder="비밀번호를 똑같이 입력해주세요">
 			</div>
-			<button type="submit" id="Password_btn">비밀번호 재설정</button>
+			<button onclick="" id="canselBtn" class="password_finder_btn">취소</button><button type="submit" id="passwordBtn" class="password_finder_btn">비밀번호 재설정</button>
 		</form>
 	</div>
 

@@ -14,15 +14,15 @@
 	</header>
 	
 	<!-- 비밀번호 찾기 폼 -->
-	<div id=Password_Finder_cantainer>
+	<div id=passwordFinderCantainer>
 		<form action="">
-			<div id="Password_Finder_Box">
-				<label>ID</label>
-				<input type="text" id="username" name="useremail" placeholder="아이디를 입력해주세요">
-				<label>Nickname</label>
-				<input type="text" id="userpw" name="usernickname" placeholder="사용하실 닉네임을 입력해주세요">
+			<div id="passwordFinderBox">
+				<label class="input_label">ID</label>
+				<input type="text" id="userId" name="userId" placeholder="아이디를 입력해주세요">
+				<label class="input_label">Nickname</label>
+				<input type="text" id="userName" name="userName" placeholder="사용하신 닉네임을 입력해주세요">
 			</div>
-			<button onclick="" id="Cansel_btn">취소</button> <button type="submit" id="Password_Finder_btn">비밀번호 찾기</button>
+			<button onclick="" id="canselBtn" class="password_finder_btn">취소</button> <button type="submit" id="passwordFinderBtn" class="password_finder_btn">비밀번호 찾기</button>
 		</form>
 	</div>
 

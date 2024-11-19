@@ -17,16 +17,16 @@
 	<div id="Register_cantainer">
 		<form action="">
 			<div id="Register_Box">
-				<label>ID</label>
-				<input type="text" id="username" name="usernaem" placeholder="아이디를 입력해주세요"> <button>중복확인</button>
-				<label>Password</label>
-				<input type="text" id="userpw" name="userpw" placeholder="비밀번호를 입력해주세요">
-				<label>Email</label>
-				<input type="text" id="username" name="useremail" placeholder="이메일을 입력해주세요">
-				<label>Nickname</label>
-				<input type="text" id="userpw" name="usernickname" placeholder="사용하실 닉네임을 입력해주세요">
+				<label class="input_label">ID</label>
+				<input class="user_input" type="text" id="userId" name="userId" placeholder="아이디를 입력해주세요"> <button>중복확인</button>
+				<label class="input_label">Password</label>
+				<input class="user_input" type="text" id="userPw" name="userPw" placeholder="비밀번호를 입력해주세요">
+				<label class="input_label">Email</label>
+				<input class="user_input" type="text" id="userEmail" name="userEmail" placeholder="이메일을 입력해주세요">
+				<label class="input_label">Nickname</label>
+				<input class="user_input" type="text" id="userName" name="userName" placeholder="사용하실 닉네임을 입력해주세요">
 			</div>
-		<button type="submit" id="Register_btn">회원가입</button>
+		<button type="submit" id="registerBtn" class="register_btn">회원가입</button>
 		</form>
 	</div>
 	
