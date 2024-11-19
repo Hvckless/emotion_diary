@@ -7,8 +7,8 @@
 <title>감정 일지 | 작성하기</title>
 </head>
 <body>
-	<div id="editor_container">
-		<form action="">
+	<div id="container">
+		<form action="post">
 			<label for="emotion">지금 기분은?</label><br>
 			<select name="emotion">
 				<option value="즐거움">즐거움</option>

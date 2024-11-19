@@ -9,8 +9,8 @@
     <script>
 
       document.addEventListener('DOMContentLoaded', function() {
-        var calendarEl = document.getElementById('calendar');
-        var calendar = new FullCalendar.Calendar(calendarEl, {
+        let calendarEl = document.getElementById('calendar');
+        let calendar = new FullCalendar.Calendar(calendarEl, {
           initialView: 'dayGridMonth'
         });
         calendar.render();
@@ -24,7 +24,7 @@
 		<div id='calendar' style="width:800px; height:800px;"></div>
 	</div>
 	
-	<div id="btn_box">
+	<div id="btnBox">
 		<button>일별 통계</button>
 		<button>주별 통계</button>
 		<button>확인</button>
