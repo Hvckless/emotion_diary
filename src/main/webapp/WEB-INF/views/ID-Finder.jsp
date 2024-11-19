@@ -14,7 +14,7 @@
 	</header>
 	
 	<!-- 아이디 찾기 폼 -->
-	<div id=idFinderCantainer>
+	<div id=container>
 		<form action="">
 			<div id="idFinderBox">
 				<label class="input_label">Email</label>

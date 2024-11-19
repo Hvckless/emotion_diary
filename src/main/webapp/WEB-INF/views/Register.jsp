@@ -14,7 +14,7 @@
 	</header>
 	
 	<!-- 회원가입 폼 -->
-	<div id="Register_cantainer">
+	<div id="container">
 		<form action="">
 			<div id="Register_Box">
 				<label class="input_label">ID</label>

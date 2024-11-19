@@ -14,7 +14,7 @@
 	</header>
 	
 	<!-- 비밀번호 찾기 폼 -->
-	<div id=passwordFinderCantainer>
+	<div id=container>
 		<form action="">
 			<div id="passwordFinderBox">
 				<label class="input_label">ID</label>

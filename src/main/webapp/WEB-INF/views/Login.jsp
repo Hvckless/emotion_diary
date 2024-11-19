@@ -14,7 +14,7 @@
 	</header>
 	
 	<!-- 로그인 폼 -->
-	<div id="loginCantainer">
+	<div id="container">
 		<form action="">
 			<div id="loginBox">
 				<label>ID</label>

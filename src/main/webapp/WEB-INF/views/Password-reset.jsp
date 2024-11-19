@@ -14,7 +14,7 @@
 	</header>
 	
 	<!-- 회원가입 폼 -->
-	<div id=passwordCantainer>
+	<div id=container>
 		<form action="">
 			<div id="passwordBox">
 				<label class="input_label">Password</label>
