@@ -21,16 +21,16 @@
 		<jsp:include page="./component/title.jsp" />
 
 		<article>
-			<div id="emotion-summary-icon">
+			<div id="emotionSummaryIcon">
 				<span>나의 하루는?</span>
 				<img src="${emotion_summary}.webp">
 			</div>
 			
-			<div id="emotion-graph">
+			<div id="emotionGraph">
 				<span>오늘의 감정 추이</span>
 			</div>
 			
-			<div id="emotion-summary-text">
+			<div id="emotionSummaryText">
 				<span>종합</span>
 				
 				<jsp:include page="./component/summary.jsp" />

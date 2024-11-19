@@ -13,7 +13,7 @@
 	 
 
 %>
-<div id="swap-statistics">
+<div id="swapStatistics">
 	<span>${statistics_type.toString()}</span>
 	
 	<c:choose>
