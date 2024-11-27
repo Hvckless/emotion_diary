@@ -28,4 +28,8 @@ public class LoginController {
 	public ModelAndView passwordFinder(HttpServletResponse response) throws IOException{
 		return new ModelAndView("Password-Finder");
 	}
+	@RequestMapping(value="/Password-Reset")
+	public ModelAndView passwordReset(HttpServletResponse response) throws IOException{
+		return new ModelAndView("Password-Reset");
+	}
 }

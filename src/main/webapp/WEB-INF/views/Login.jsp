@@ -19,10 +19,10 @@
 		<div id="wrapper">
 			<form action="post" id="loginForm">
 				<div id="loginBox">
-					<label>ID</label>
-					<input type="text" id="userId" name="userId" placeholder="ID를 입력해주세요">
-					<label>Password</label>
-					<input type="text" id="userPw" name="userPw" placeholder="PW를 입력해주세요">
+					<label class="input_label">ID</label>
+					<input class="user_input" type="text" id="userId" name="userId" placeholder="ID를 입력해주세요">
+					<label class="input_label">Password</label>
+					<input class="user_input" type="text" id="userPw" name="userPw" placeholder="PW를 입력해주세요">
 				</div>
 				<button type="submit" id="loginBtn" class="login_bth">로그인</button>
 			</form>

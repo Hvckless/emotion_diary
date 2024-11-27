@@ -13,6 +13,7 @@ body {
 header {
     text-align: center;
     width: 100%;
+    background-color: #F2F2F2;
 }
 #container{
 	width: 100vw;  
@@ -28,10 +29,11 @@ header {
 	justify-content: flex-end;  
 	align-items: center;      
 	width: 100vw;             
-	height: 35vh;      
+	height: 25vh;      
 	flex-direction: column;   
 	text-align: center;    
 	padding-bottom: 7vh;
+	
 }
 #logoTitle{
 	font-size: 4em;
@@ -128,7 +130,7 @@ button {
 #formBox{
 	width:100%;
 	padding: 30px;
-	padding-top: 0px;
+	
 }
 #emotionForm{
 	width: 100%;
