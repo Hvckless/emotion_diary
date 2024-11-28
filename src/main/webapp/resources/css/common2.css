@@ -23,6 +23,7 @@ header {
     justify-content: flex-start; /* 가로 중앙 정렬 */
     align-items: center; /* 세로 중앙 정렬 */
     flex-direction: column;
+    
 }
 #logo{
 	display: flex;
@@ -85,16 +86,7 @@ button {
 	gap: 20px;                   
 	padding: 20px;      
 }
-#btnBox button {
-	background-color: #2C2C2C;   
-	color: white;                
-	border: none;                
-	padding:10px;
-	width: 130px; 
-	font-size: 18px;            
-	border-radius: 10px;               
-	
-}
+
 #cardBox{
 	display: flex;                 
   	flex-direction: column;        
@@ -377,7 +369,6 @@ button {
     padding: 12px;
     border-radius: 4px;
     font-size: 16px;
-    cursor: pointer;
     margin-top: 10px;
 }
 /* 두 버튼 사이 간격 */
@@ -433,7 +424,6 @@ article{
   
 }
 
-
 #emotionGraph {
 	display:flex;
 	flex-direction: column;
@@ -441,9 +431,6 @@ article{
 	margin-bottom: 20px;
 	text-align: center;
 }
-
-
-
 #emotionSummaryText {
   margin-bottom: 20px;
 }
@@ -456,13 +443,48 @@ article{
 }
 
 
-
-#emotionSummaryText + jsp\:include {
-  margin-top: 20px;
-}
-
-
 #swapStatistics button{
-	width: 32%
+	width: 32%;
+	border-radius: 4px;
 }
 
+
+#calendar{
+	width:100%;
+	height: 55vh;
+}
+#calendarBox span:first-child{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #333;
+}
+.fc-today-button, .fc-prev-button, .fc-next-button{
+	background-color: #2C2C2C;   
+	color: white;                
+	border: none;                
+	padding:10px;
+	width: 70px; 
+	font-size: 18px;            
+	border-radius: 4px;   
+}
+.fc-prev-button, .fc-next-button{
+	width:40px;
+	
+}
+
+
+
+#fc-dom-1{
+	font-size: 1.3rem;
+	padding: 15px 70px 15px 0px;
+	
+}
+
+#calendarBox{
+	padding-top:20px;
+	width:100%;
+}
+
+.fc-icon{
+	color: white;
+}
