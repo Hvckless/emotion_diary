@@ -13,12 +13,6 @@ public class HomeController {
 	@Autowired
 	UserService service;
 	
-
-//	@RequestMapping(value="/")
-//	public ModelAndView test(HttpServletResponse response) throws IOException{
-//		return new ModelAndView("home");
-//	}
-	
 	@GetMapping(value="")
 	public String test(Model model) {
 		
