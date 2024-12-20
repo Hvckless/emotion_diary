@@ -70,7 +70,7 @@ const Utils = {
 };
 
 const ChartMode = {
-  MODE : 1,
+  MODE : 0,
   DAILY: 0,
   WEEKLY: 1,
 }
@@ -163,7 +163,7 @@ const config = {
                       const labels = YLabels;
                       return labels[value] || value;
                   },
-				  display: flase,
+				  display: false,
               }
           },
           x: ChartMode.MODE == ChartMode.WEEKLY ? {} : {
@@ -275,19 +275,26 @@ const actions = [{
   {
     name: 'Add Weekly Data',
     handler(value, chart){
-        const data = chart.data;
-        if (data.datasets.length > 0) {
-            data.labels = Utils.weeks({
-                count: data.labels.length + 1
-            });
 
-            for (let index = 0; index < data.datasets.length; ++index) {
-                //data.datasets[index].data.push(Utils.rand(NUMBER_CFG.min, NUMBER_CFG.max));
-                data.datasets[index].data.push(value);
-            }
+		
+		if((value >= NUMBER_CFG.min) && (value <= NUMBER_CFG.max)){
+			const data = chart.data;
+			if (data.datasets.length > 0) {
+			    data.labels = Utils.weeks({
+			        count: data.labels.length + 1
+			    });
 
-            chart.update();
-        }
+			    for (let index = 0; index < data.datasets.length; ++index) {
+			        //data.datasets[index].data.push(Utils.rand(NUMBER_CFG.min, NUMBER_CFG.max));
+			        data.datasets[index].data.push(value);
+			    }
+
+			    chart.update();
+			}
+		}else{
+			throw new Error("data is out of range");
+		}
+		
     }
   }
 ];

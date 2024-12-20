@@ -25,7 +25,7 @@ Mode값이 WEEKLY인 경우 월~일의 일주일 체계 도표를 사용.
 ### 📅 주간 차트에 데이터 추가
 
 ```jsx
-actions[2].handler(myChart)
+actions[7].handler(value, myChart)
 ```
 
 여기서 `myChart` 는 현재 생성된 도표의 변수 이름이며, 전역으로 선언되어있다.
