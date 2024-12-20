@@ -1,5 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ page import="stepup.emotiondiary.enums.StatisticsDate" %>
+<%
+	String description = "HELLO";
+	String emotion_summary = "notgood";
+	StatisticsDate statistics_type = StatisticsDate.TODAY;
+
+	request.setAttribute("description", description);
+	request.setAttribute("statistics_type", statistics_type);
+%>
 <!DOCTYPE html>
 <html>
 <head>

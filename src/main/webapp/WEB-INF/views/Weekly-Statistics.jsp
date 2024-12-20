@@ -4,7 +4,7 @@
 <%
 	String description = "HELLO";
 	String emotion_summary = "notgood";
-	StatisticsDate statistics_type = StatisticsDate.TODAY;
+	StatisticsDate statistics_type = StatisticsDate.WEEK;
 
 	request.setAttribute("description", description);
 	request.setAttribute("statistics_type", statistics_type);
@@ -16,7 +16,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/resources/css/common2.css">
-<title>Insert title here</title>
+<title>감정 다이어리 - 주간 통계 보기</title>
 </head>
 <body>
 	<header>
@@ -26,12 +26,12 @@
 	<div id="container">
 		<article>
 			<div id="emotionSummaryIcon">
-				<span>나의 하루는...</span>
+				<span>이번주는...</span>
 				<img src="${emotion_summary}.webp">
 			</div>
 			
 			<div id="emotionGraph">
-				<span>오늘 나는...</span>
+				<span>오늘의 감정 추이</span>
 				<%@include file="/WEB-INF/views/chartviewer.jsp" %>
 			</div>
 			

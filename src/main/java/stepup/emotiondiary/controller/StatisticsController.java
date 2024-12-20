@@ -15,6 +15,10 @@ public class StatisticsController {
 	public ModelAndView getStatics(HttpServletResponse response) throws IOException{
 		return new ModelAndView("Today-Statistics");
 	}
+	@RequestMapping(value="/Weekly-Statistics")
+	public ModelAndView getWeekStatistics(HttpServletResponse response) throws IOException{
+		return new ModelAndView("Weekly-Statistics");
+	}
 	
 	@RequestMapping(value="/ChartViewer")
 	public ModelAndView getChart(HttpServletResponse response) throws IOException{

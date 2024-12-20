@@ -18,19 +18,19 @@
 	<br>
 	<c:choose>
 		<c:when test="${statistics_type.toString() != 'TODAY'}">
-			<button onclick="window.location.href='/';">일간 통계</button>
+			<button onclick="window.location.href='/Today-Statistics';">일간 통계</button>
 		</c:when>
 	</c:choose>
 
 	<c:choose>
 		<c:when test="${statistics_type.toString() != 'WEEK'}">
-			<button onclick="window.location.href='/';">주간 통계</button>
+			<button onclick="window.location.href='/Weekly-Statistics';">주간 통계</button>
 		</c:when>
 	</c:choose>
 	
 	<c:choose>
 		<c:when test="${statistics_type.toString() != 'MONTH'}">
-			<button onclick="window.location.href='/';">월간 통계</button>
+			<button onclick="window.location.href='/Month-Calender';">월간 통계</button>
 		</c:when>
 	</c:choose>
 	<button onclick="window.location.href='/';">확인</button>
