@@ -8,6 +8,7 @@
 
 	request.setAttribute("description", description);
 	request.setAttribute("statistics_type", statistics_type);
+	//${statistics_type.toString() }
 %>
     
 <!DOCTYPE html>
